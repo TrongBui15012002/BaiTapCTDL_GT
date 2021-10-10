@@ -8,6 +8,7 @@ public class NhanVien {
     String diaChi;
     String boPhanLamViec;
     String ngaySinh;
+    Scanner n = new Scanner(System.in);
 
     NhanVien(){
         //Hàm tạo mặc định
@@ -28,7 +29,6 @@ public class NhanVien {
         System.out.println("________________________________________");
     }
     void nhapThongTin(){
-        Scanner n = new Scanner(System.in);
         System.out.print("Họ và tên: ");
         tenNhanVien = n.nextLine();
         System.out.print("Lương: ");
