@@ -13,7 +13,7 @@ public class NhanVien {
     NhanVien(){
         //Hàm tạo mặc định
     }
-    NhanVien(String ten, int l, String DC, String BP, String NS){
+     NhanVien(String ten, int l, String DC, String BP, String NS){
         tenNhanVien = ten;
         luong = l;
         diaChi = DC;

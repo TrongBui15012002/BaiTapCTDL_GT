@@ -1,5 +1,6 @@
 package com.trongbt2008110320.tuan04.BaiTapThem;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -21,7 +22,8 @@ public class NhanVienTestDrive {
         for(NhanVien x : DSNV){
             x.inThongTin();
         }
-        List<NhanVien> list = Arrays.asList(DSNV);
+        // List<NhanVien> list = Arrays.asList(DSNV);
+        List<NhanVien> list = new ArrayList<NhanVien>(Arrays.asList(DSNV));
         Comparator<NhanVien> comparator = new Comparator<NhanVien>(){
 
             @Override
@@ -29,7 +31,6 @@ public class NhanVienTestDrive {
 
                 return Integer.compare(o1.luong, o2.luong);
             }
-            
         };
         list.sort(comparator);
         System.out.println("=====Thông tin nhân viên sau khi sắp xếp=====");
@@ -37,8 +38,9 @@ public class NhanVienTestDrive {
             x.inThongTin();
         }
         System.out.print("Nhập tên nhân viên muốn xóa: ");
+        n.nextLine();
+        String ten = n.nextLine();
         for(NhanVien x :list){
-            String ten = n.nextLine();
             if((x.tenNhanVien).equals(ten)){
                 list.remove(x);
                 System.out.println("Xóa thành công!");
