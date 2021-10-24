@@ -1,4 +1,4 @@
-package com.trongbt2008110320.tuan05;
+package com.trongbt2008110320.tuan06;
 
 import java.util.Scanner;
 

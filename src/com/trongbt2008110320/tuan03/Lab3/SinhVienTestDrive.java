@@ -24,16 +24,14 @@ public class SinhVienTestDrive {
         }
         List<SinhVien> list = Arrays.asList(DSSV);
 
-        Comparator<SinhVien> comparator = new Comparator<SinhVien>(){
-    
+        Comparator<SinhVien> comparator = new Comparator<SinhVien>() {
+
             @Override
             public int compare(SinhVien o1, SinhVien o2) {
-    
+                // TODO Auto-generated method stub
                 return Integer.compare(o1.tuoi, o2.tuoi);
-            }
-                
+            }    
         };
-    
         list.sort(comparator);
 
         System.out.println("======IN DANH SÁCH SAU SẮP XẾP======");
