@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class SanPham {
     String tenSP;
     double gia;
-    int nhap;
     Scanner n = new Scanner(System.in);
 
     SanPham(String t, double g){

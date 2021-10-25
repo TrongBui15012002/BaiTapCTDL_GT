@@ -91,6 +91,7 @@ public class AppleLinkedList {
         tim();
         System.out.println("- Nhập tao muốn thêm: ");
         nhapThongtin();
+        
 
     }
 
