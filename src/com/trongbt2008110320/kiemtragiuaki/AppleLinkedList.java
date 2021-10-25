@@ -64,6 +64,7 @@ public class AppleLinkedList {
         int maTim = nhap.nextInt();
         while(tam1 != null){
             if(tam1.ma == maTim)
+                System.out.println("- Táo muốn tìm: ");
                 inThongTin();
             tam1 = tam1.next;
         }
@@ -85,7 +86,12 @@ public class AppleLinkedList {
         }
     }
     void themTruoc(){
-        
+        System.out.println("- Nhập mã của táo muốn thêm trước: ");
+        ma = nhap.nextInt();
+        tim();
+        System.out.println("- Nhập tao muốn thêm: ");
+        nhapThongtin();
+
     }
 
     
