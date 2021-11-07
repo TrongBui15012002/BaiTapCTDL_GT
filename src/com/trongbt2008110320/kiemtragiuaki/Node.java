@@ -18,24 +18,4 @@ public class Node {
         khoiLuong = kl;
         mauSac = ms;
     }
-    // void nhapThongtin(){
-    //     System.out.print("- Nhập mã của táo: ");
-    //     ma = nhap.nextInt();
-    //     System.out.print("- Nhập khối lượng của táo: ");
-    //     khoiLuong = nhap.nextDouble();
-    //     System.out.print("- Nhập màu sắc của táo: ");
-    //     nhap.nextLine();
-    //     mauSac = nhap.nextLine();
-    //     System.out.println("___________________________");
-
-    public void nhapThongtin() {
-    }
-
-    // }
-    // void inThongTin(){
-    //     System.out.println("- Mã: "+ma);
-    //     System.out.println("- Khối lượng: "+khoiLuong);
-    //     System.out.println("- Màu sắc: "+mauSac);
-    //     System.out.println("___________________________");
-    // }
 }
